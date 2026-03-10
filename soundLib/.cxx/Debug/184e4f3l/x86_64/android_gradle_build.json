@@ -1,0 +1,70 @@
+{
+  "buildFiles": [
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\kissfft\\cmake\\JoinPaths.cmake",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\kissfft\\CMakeLists.txt",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\kissfft\\kissfft-config.cmake.in",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\libnyquist\\cmake\\CXXhelpers.cmake",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\libnyquist\\CMakeLists.txt",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\oboe\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "kissfft::@4ab4a283321f29e5cdd3": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "kissfft",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64\\kissfft\\libkissfft-float.a"
+    },
+    "libnyquist::@e353072e34877f4a3741": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "libnyquist",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64\\libnyquist\\lib\\liblibnyquist_d.a"
+    },
+    "oboe::@0db0cf03f2959f768628": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "oboe",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64\\oboe\\liboboe.a"
+    },
+    "runblind_lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "runblind_lib",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\.cxx\\Debug\\184e4f3l\\x86_64\\librunblind_lib.a"
+    },
+    "soundlib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "soundlib",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\build\\intermediates\\cxx\\Debug\\184e4f3l\\obj\\x86_64\\libsoundlib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

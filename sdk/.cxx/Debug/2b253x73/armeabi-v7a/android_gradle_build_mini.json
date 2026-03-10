@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\sdk\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\sdk\\.cxx\\Debug\\2b253x73\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\sdk\\.cxx\\Debug\\2b253x73\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared::@6890427a1f51a3e7e1df": {
+      "artifactName": "opencv_jni_shared",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\sdk\\.cxx\\Debug\\2b253x73\\armeabi-v7a\\libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# ninja log v5
+11	831	7488821327230985	CMakeFiles/runblind_lib.dir/runblind/AudioEngine.cpp.o	29b48517c1717504
+1	907	7488821327988304	CMakeFiles/oboedemo.dir/native-lib.cpp.o	298ca7d2c6e873d1
+6	1249	7488821331388852	CMakeFiles/runblind_lib.dir/runblind/AudioProcessor.cpp.o	81caf09a1c242651
+1249	1354	7488821332618514	librunblind_lib.a	b80f2dc24922e52c

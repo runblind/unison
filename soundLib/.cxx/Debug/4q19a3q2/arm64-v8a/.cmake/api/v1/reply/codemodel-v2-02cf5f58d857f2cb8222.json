@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "soundlib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "soundlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soundlib-Debug-3d0a598a98308c36d4c0.json",
+					"name" : "soundlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/Debug/4q19a3q2/arm64-v8a",
+		"source" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

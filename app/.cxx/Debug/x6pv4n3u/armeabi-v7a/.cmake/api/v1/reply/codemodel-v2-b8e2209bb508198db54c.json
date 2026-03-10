@@ -1,0 +1,111 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "libnyquist",
+					"jsonFile" : "directory-libnyquist-Debug-eabad3b36a6f87ca8caa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libnyquist"
+				},
+				{
+					"build" : "kissfft",
+					"jsonFile" : "directory-kissfft-Debug-72c6f1c7e8eb0f55f7e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "kissfft"
+				},
+				{
+					"build" : "oboe",
+					"jsonFile" : "directory-oboe-Debug-524ad48909046aa56c06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "oboe"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "oboedemo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "oboedemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-oboedemo-Debug-694199fb422cdb2f18cc.json",
+					"name" : "oboedemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runblind_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runblind_lib-Debug-84e16673c9af656f9de1.json",
+					"name" : "runblind_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3Dsound_planetarium/app/.cxx/Debug/x6pv4n3u/armeabi-v7a",
+		"source" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3Dsound_planetarium/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,7 @@
+Executable : C:\Users\quent\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\stardroid-master\stardroid-master\sdk\.cxx\Debug\2u1l371v\armeabi-v7a
+opencv_jni_shared
+jvmArgs : 
+

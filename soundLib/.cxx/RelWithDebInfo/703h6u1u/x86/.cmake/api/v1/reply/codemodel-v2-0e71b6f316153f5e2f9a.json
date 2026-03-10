@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "libnyquist",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libnyquist-RelWithDebInfo-254e3088a020fb6af218.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libnyquist",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "kissfft",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-kissfft-RelWithDebInfo-8e2f39f7c1f47d65c168.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "kissfft",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "oboe",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-oboe-RelWithDebInfo-138af872ef17e89e8c05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "oboe",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "soundlib",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libnyquist",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "kissfft",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "oboe",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "kissfft::@4ab4a283321f29e5cdd3",
+					"jsonFile" : "target-kissfft-RelWithDebInfo-8c37e60012224f16be15.json",
+					"name" : "kissfft",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libnyquist::@e353072e34877f4a3741",
+					"jsonFile" : "target-libnyquist-RelWithDebInfo-e9b83b43fac1e08dc3b8.json",
+					"name" : "libnyquist",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "oboe::@0db0cf03f2959f768628",
+					"jsonFile" : "target-oboe-RelWithDebInfo-9d67de23aeea6da39b12.json",
+					"name" : "oboe",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runblind_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runblind_lib-RelWithDebInfo-20fbc472912a90d40685.json",
+					"name" : "runblind_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soundlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soundlib-RelWithDebInfo-2beef2122d4faea0ba7b.json",
+					"name" : "soundlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/RelWithDebInfo/703h6u1u/x86",
+		"source" : "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

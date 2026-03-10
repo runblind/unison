@@ -1,0 +1,18 @@
+ninja: Entering directory `C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\app\.cxx\Debug\2o4g1ke5\arm64-v8a'
+[1/5] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/oboedemo.dir/native-lib.cpp.o
+[3/5] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioProcessor.cpp.o
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/app/src/main/cpp/runblind/AudioProcessor.cpp:1:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/app/src/main/cpp/runblind/AudioProcessor.h:49:22: warning: private field 'tmpOut' is not used [-Wunused-private-field]
+        kiss_fft_cpx tmpOut[constants::PROCESSING_CHUNK_SIZE_MONO / 2 + 1];
+                     ^
+1 warning generated.
+[4/5] Linking CXX static library librunblind_lib.a
+[5/5] Linking CXX shared library C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\app\build\intermediates\cxx\Debug\2o4g1ke5\obj\arm64-v8a\liboboedemo.so
+FAILED: C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/app/build/intermediates/cxx/Debug/2o4g1ke5/obj/arm64-v8a/liboboedemo.so 
+cmd.exe /C "cd . && C:\Users\quent\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android26 --gcc-toolchain=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -Wall -Ofast -O3 -fno-signed-zeros -DNDEBUG -march=armv8-a -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,liboboedemo.so -o C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\app\build\intermediates\cxx\Debug\2o4g1ke5\obj\arm64-v8a\liboboedemo.so CMakeFiles/oboedemo.dir/native-lib.cpp.o  -landroid  librunblind_lib.a  -loboe  -llibnyquist  -lkissfft  -llog  -latomic -lm && cd ."
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -loboe
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -llibnyquist
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -lkissfft
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

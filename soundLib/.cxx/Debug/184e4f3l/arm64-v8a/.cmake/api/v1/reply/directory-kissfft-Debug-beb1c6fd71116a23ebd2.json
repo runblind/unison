@@ -1,0 +1,122 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"kissfft/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 309,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 316,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"kissfft/libkissfft-float.a"
+			],
+			"targetId" : "kissfft::@4ab4a283321f29e5cdd3",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/kissfft",
+			"paths" : 
+			[
+				"kissfft/kiss_fft.h",
+				"kissfft/kissfft.hh",
+				"kissfft/kiss_fftnd.h",
+				"kissfft/kiss_fftndr.h",
+				"kissfft/kiss_fftr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/kissfft",
+			"exportName" : "kissfft",
+			"exportTargets" : 
+			[
+				{
+					"id" : "kissfft::@4ab4a283321f29e5cdd3",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"kissfft/CMakeFiles/Export/lib/cmake/kissfft/kissfft-float-static-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/kissfft",
+			"paths" : 
+			[
+				"C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/Debug/184e4f3l/arm64-v8a/kissfft/kissfft-config.cmake",
+				"C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/Debug/184e4f3l/arm64-v8a/kissfft/kissfft-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/Debug/184e4f3l/arm64-v8a/kissfft/kissfft-float.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "kissfft",
+		"source" : "kissfft"
+	}
+}

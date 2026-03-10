@@ -1,0 +1,244 @@
+ninja: Entering directory `C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\.cxx\Debug\6481j2p2\arm64-v8a'
+[1/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/src/MusepackDependencies.c.o
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/MusepackDependencies.c:45:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\musepack/libmpcdec/mpc_demux.c:112:21: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+                        bytes2read &= -1 << 2;
+                                      ~~ ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\musepack/libmpcdec/mpc_demux.c:113:39: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+                        offset = (unread_bytes + 3) & ( -1 << 2);
+                                                        ~~ ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\musepack/libmpcdec/mpc_demux.c:165:57: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+                        next_pos = ((next_pos - d->si.header_position) & (-1 << 2)) + d->si.header_position;
+                                                                          ~~ ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\musepack/libmpcdec/mpc_demux.c:315:24: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+                        code = -(code & (-1 << 1));
+                                         ~~ ^
+4 warnings generated.
+[2/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/src/FlacDependencies.c.o
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/FlacDependencies.c:89:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\FLAC/src/bitwriter.c:277:42: warning: static function 'bitwriter_grow_' is used in an inline function with external linkage [-Wstatic-in-inline]
+        if(bw->capacity <= bw->words + bits && !bitwriter_grow_(bw, bits))
+                                                ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party/FLAC/src/include\private/bitwriter.h:82:1: note: use 'static' to give inline function 'FLAC__bitwriter_write_zeroes' internal linkage
+FLAC__bool FLAC__bitwriter_write_zeroes(FLAC__BitWriter *bw, unsigned bits);
+^
+static 
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\FLAC/src/bitwriter.c:85:12: note: 'bitwriter_grow_' declared here
+FLAC__bool bitwriter_grow_(FLAC__BitWriter *bw, unsigned bits_to_add)
+           ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\FLAC/src/bitwriter.c:320:42: warning: static function 'bitwriter_grow_' is used in an inline function with external linkage [-Wstatic-in-inline]
+        if(bw->capacity <= bw->words + bits && !bitwriter_grow_(bw, bits))
+                                                ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party/FLAC/src/include\private/bitwriter.h:83:1: note: use 'static' to give inline function 'FLAC__bitwriter_write_raw_uint32' internal linkage
+FLAC__bool FLAC__bitwriter_write_raw_uint32(FLAC__BitWriter *bw, FLAC__uint32 val, unsigned bits);
+^
+static 
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\FLAC/src/bitwriter.c:85:12: note: 'bitwriter_grow_' declared here
+FLAC__bool bitwriter_grow_(FLAC__BitWriter *bw, unsigned bits_to_add)
+           ^
+2 warnings generated.
+[3/114] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioEngine.cpp.o
+[4/114] Building CXX object CMakeFiles/soundlib.dir/soundlib.cpp.o
+[5/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/VorbisDecoder.cpp.o
+[6/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/MusepackDecoder.cpp.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/MusepackDecoder.cpp:162:17: warning: private field 'decoder' is not used [-Wunused-private-field]
+    mpc_decoder decoder;
+                ^
+1 warning generated.
+[7/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/WavDecoder.cpp.o
+[8/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/FlacDecoder.cpp.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/FlacDecoder.cpp:82:79: warning: field 'd' will be initialized after field 'data' [-Wreorder]
+    FlacDecoderInternal(AudioData * d, const std::vector<uint8_t> & memory) : d(d), data(std::move(memory)), dataPos(0)
+                                                                              ^
+1 warning generated.
+[9/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/open_legacy.c.o
+[10/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/entropy_utils.c.o
+[11/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/extra1.c.o
+[12/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/decorr_utils.c.o
+[13/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/open_raw.c.o
+[14/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/OpusDecoder.cpp.o
+[15/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/common_utils.c.o
+[16/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/Mp3Decoder.cpp.o
+[17/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/pack.c.o
+[18/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/extra2.c.o
+[19/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/pack_floats.c.o
+[20/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/pack_dsd.c.o
+[21/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/pack_utils.c.o
+[22/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/pack_dns.c.o
+[23/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/open_filename.c.o
+[24/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/Common.cpp.o
+[25/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/read_words.c.o
+[26/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack3.c.o
+[27/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/Encoders.cpp.o
+[28/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack_floats.c.o
+[29/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack3_seek.c.o
+[30/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/open_utils.c.o
+[31/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack3_open.c.o
+[32/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/tag_utils.c.o
+[33/114] Building CXX object libnyquist/CMakeFiles/libnyquist.dir/src/WavPackDecoder.cpp.o
+[34/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack_dsd.c.o
+[35/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack.c.o
+[36/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack_utils.c.o
+[37/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/tags.c.o
+[38/114] Building C object kissfft/CMakeFiles/kissfft.dir/kiss_fftr.c.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftr.c:49:18: warning: cast from 'char *' to 'kiss_fft_cpx *' increases required alignment from 1 to 4 [-Wcast-align]
+    st->tmpbuf = (kiss_fft_cpx *) (((char *) st->substate) + subsize);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[39/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/write_words.c.o
+[40/114] Building C object kissfft/CMakeFiles/kissfft.dir/kiss_fftnd.c.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftnd.c:50:10: warning: cast from 'char *' to 'kiss_fftnd_cfg' (aka 'struct kiss_fftnd_state *') increases required alignment from 1 to 8 [-Wcast-align]
+    st = (kiss_fftnd_cfg) ptr;
+         ^~~~~~~~~~~~~~~~~~~~
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftnd.c:55:18: warning: cast from 'char *' to 'kiss_fft_cfg *' (aka 'struct kiss_fft_state **') increases required alignment from 1 to 8 [-Wcast-align]
+    st->states = (kiss_fft_cfg *)ptr;
+                 ^~~~~~~~~~~~~~~~~~~
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftnd.c:58:16: warning: cast from 'char *' to 'int *' increases required alignment from 1 to 4 [-Wcast-align]
+    st->dims = (int*)ptr;
+               ^~~~~~~~~
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftnd.c:61:18: warning: cast from 'char *' to 'kiss_fft_cpx *' increases required alignment from 1 to 4 [-Wcast-align]
+    st->tmpbuf = (kiss_fft_cpx*)ptr;
+                 ^~~~~~~~~~~~~~~~~~
+4 warnings generated.
+[41/114] Building C object kissfft/CMakeFiles/kissfft.dir/kiss_fftndr.c.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/kissfft/kiss_fftndr.c:59:10: warning: cast from 'char *' to 'kiss_fftndr_cfg' (aka 'struct kiss_fftndr_state *') increases required alignment from 1 to 8 [-Wcast-align]
+    st = (kiss_fftndr_cfg) ptr;
+         ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[42/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/third_party/wavpack/src/unpack_seek.c.o
+[43/114] Building C object kissfft/CMakeFiles/kissfft.dir/kiss_fft.c.o
+[44/114] Building C object kissfft/CMakeFiles/kissfft.dir/kfc.c.o
+[45/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockAdapter.cpp.o
+[46/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AdpfWrapper.cpp.o
+[47/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/aaudio/AAudioLoader.cpp.o
+[48/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockReader.cpp.o
+[49/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioSourceCaller.cpp.o
+[50/114] Linking C static library kissfft\libkissfft-float.a
+[51/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioStream.cpp.o
+[52/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockWriter.cpp.o
+[53/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/src/VorbisDependencies.c.o
+[54/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FilterAudioStream.cpp.o
+[55/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
+[56/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/aaudio/AudioStreamAAudio.cpp.o
+[57/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o
+[58/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceI32Caller.cpp.o
+[59/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceI16Caller.cpp.o
+[60/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/DataConversionFlowGraph.cpp.o
+[61/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceFloatCaller.cpp.o
+[62/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
+[63/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o
+[64/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/OboeExtensions.cpp.o
+[65/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceI24Caller.cpp.o
+[66/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
+[67/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o
+[68/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/FlowGraphNode.cpp.o
+[69/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ChannelCountConverter.cpp.o
+[70/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MonoToMultiConverter.cpp.o
+[71/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MonoBlend.cpp.o
+[72/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ClipToRange.cpp.o
+[73/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/Limiter.cpp.o
+[74/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ManyToMultiConverter.cpp.o
+[75/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI32.cpp.o
+[76/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o
+[77/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/QuirksManager.cpp.o
+[78/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
+[79/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MultiToManyConverter.cpp.o
+[80/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkFloat.cpp.o
+[81/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MultiToMonoConverter.cpp.o
+[82/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI24.cpp.o
+[83/114] Building C object libnyquist/CMakeFiles/libnyquist.dir/src/OpusDependencies.c.o
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/OpusDependencies.c:63:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/celt/float_cast.h:123:10: warning: "Don't have the functions lrint() and lrintf ()." [-W#warnings]
+        #warning "Don't have the functions lrint() and lrintf ()."
+         ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/celt/float_cast.h:124:10: warning: "Replacing these functions with a standard C cast." [-W#warnings]
+        #warning "Replacing these functions with a standard C cast."
+         ^
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/OpusDependencies.c:107:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/silk/define.h:172:9: warning: 'MAX_PULSES' macro redefined [-Wmacro-redefined]
+#define MAX_PULSES                              16
+        ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/celt/rate.h:35:9: note: previous definition is here
+#define MAX_PULSES 128
+        ^
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/OpusDependencies.c:134:
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/silk/control_codec.c:35:
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party/opus/silk/float\main_FLP.h:31:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party/opus/silk/float/SigProc_FLP.h:150:9: warning: 'PI' macro redefined [-Wmacro-redefined]
+#define PI              (3.1415926536f)
+        ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party/opus/celt/mathops.h:83:9: note: previous definition is here
+#define PI 3.141592653f
+        ^
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/OpusDependencies.c:159:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/silk/NLSF2A.c:41:9: warning: 'QA' macro redefined [-Wmacro-redefined]
+#define QA      16
+        ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/silk/LPC_inv_pred_gain.c:34:9: note: previous definition is here
+#define QA                          24
+        ^
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/src/OpusDependencies.c:247:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/libnyquist/third_party\opus/libopus/src/opus_decoder.c:37:10: warning: You appear to be compiling without optimization, if so opus will be very slow. [-W#pragma-messages]
+# pragma message "You appear to be compiling without optimization, if so opus will be very slow."
+         ^
+6 warnings generated.
+[84/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/IntegerRatio.cpp.o
+[85/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/LinearResampler.cpp.o
+[86/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SampleRateConverter.cpp.o
+[87/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI16.cpp.o
+[88/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI32.cpp.o
+[89/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI8_24.cpp.o
+[90/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResampler.cpp.o
+[91/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI8_24.cpp.o
+[92/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI24.cpp.o
+[93/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResamplerMono.cpp.o
+[94/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/SincResampler.cpp.o
+[95/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/MultiChannelResampler.cpp.o
+[96/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResamplerStereo.cpp.o
+[97/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI16.cpp.o
+[98/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Version.cpp.o
+[99/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/SincResamplerStereo.cpp.o
+[100/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Trace.cpp.o
+[101/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceFloat.cpp.o
+[102/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o
+[103/114] Linking CXX static library libnyquist\lib\liblibnyquist_d.a
+[104/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o
+[105/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o
+[106/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o
+[107/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o
+[108/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o
+[109/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o
+[110/114] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o
+[111/114] Linking CXX static library oboe\liboboe.a
+[112/114] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioProcessor.cpp.o
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:88:37: warning: unused variable 'yZero' [-Wunused-variable]
+    double x, y, z, hxy, ra, xZero, yZero, zZero;
+                                    ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:88:44: warning: unused variable 'zZero' [-Wunused-variable]
+    double x, y, z, hxy, ra, xZero, yZero, zZero;
+                                           ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:88:30: warning: unused variable 'xZero' [-Wunused-variable]
+    double x, y, z, hxy, ra, xZero, yZero, zZero;
+                             ^
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:3:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:55:66: warning: private field 'monoBuffer' is not used [-Wunused-private-field]
+        std::array<float, constants::PROCESSING_CHUNK_SIZE_MONO> monoBuffer;
+                                                                 ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:62:23: warning: private field 'fftCfg' is not used [-Wunused-private-field]
+        kiss_fftr_cfg fftCfg;
+                      ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:63:23: warning: private field 'ifftCfg' is not used [-Wunused-private-field]
+        kiss_fftr_cfg ifftCfg;
+                      ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:64:23: warning: private field 'fftCfg512' is not used [-Wunused-private-field]
+        kiss_fftr_cfg fftCfg512;
+                      ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:65:23: warning: private field 'ifftCfg512' is not used [-Wunused-private-field]
+        kiss_fftr_cfg ifftCfg512;
+                      ^
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:69:22: warning: private field 'tmpOut' is not used [-Wunused-private-field]
+        kiss_fft_cpx tmpOut[constants::PROCESSING_CHUNK_SIZE_MONO / 2 + 1];
+                     ^
+9 warnings generated.
+[113/114] Linking CXX static library librunblind_lib.a
+[114/114] Linking CXX shared library C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\build\intermediates\cxx\Debug\6481j2p2\obj\arm64-v8a\libsoundlib.so

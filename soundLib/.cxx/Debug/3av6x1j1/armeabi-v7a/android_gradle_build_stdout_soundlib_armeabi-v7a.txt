@@ -1,0 +1,39 @@
+ninja: Entering directory `C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\.cxx\Debug\3av6x1j1\armeabi-v7a'
+[1/5] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioEngine.cpp.o
+[2/5] Building CXX object CMakeFiles/soundlib.dir/soundlib.cpp.o
+[3/5] Building CXX object CMakeFiles/runblind_lib.dir/runblind/AudioProcessor.cpp.o
+In file included from C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:1:
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.h:49:22: warning: private field 'tmpOut' is not used [-Wunused-private-field]
+        kiss_fft_cpx tmpOut[constants::PROCESSING_CHUNK_SIZE_MONO / 2 + 1];
+                     ^
+1 warning generated.
+[4/5] Linking CXX static library librunblind_lib.a
+[5/5] Linking CXX shared library C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\build\intermediates\cxx\Debug\3av6x1j1\obj\armeabi-v7a\libsoundlib.so
+FAILED: C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/build/intermediates/cxx/Debug/3av6x1j1/obj/armeabi-v7a/libsoundlib.so 
+cmd.exe /C "cd . && C:\Users\quent\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi26 --gcc-toolchain=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Wall -Ofast -O3 -fno-signed-zeros -DNDEBUG -march=armv7-a -mfpu=neon -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libsoundlib.so -o C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\build\intermediates\cxx\Debug\3av6x1j1\obj\armeabi-v7a\libsoundlib.so CMakeFiles/soundlib.dir/soundlib.cpp.o  -landroid  librunblind_lib.a  -loboe  -llibnyquist  -lkissfft  -llog  -latomic -lm && cd ."
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld: error: cannot find -loboe
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld: error: cannot find -llibnyquist
+C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld: error: cannot find -lkissfft
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioEngine.cpp:130: error: undefined reference to 'oboe::AudioStreamBuilder::openStream(std::__ndk1::shared_ptr<oboe::AudioStream>&)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioEngine.cpp:132: error: undefined reference to 'char const* oboe::convertToText<oboe::Result>(oboe::Result)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioEngine.cpp:140: error: undefined reference to 'char const* oboe::convertToText<oboe::Result>(oboe::Result)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioEngine.cpp:52: error: undefined reference to 'char const* oboe::convertToText<oboe::Result>(oboe::Result)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioEngine.cpp:56: error: undefined reference to 'char const* oboe::convertToText<oboe::Result>(oboe::Result)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:212: error: undefined reference to 'kiss_fftr_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:213: error: undefined reference to 'kiss_fftr_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:214: error: undefined reference to 'kiss_fftr_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:215: error: undefined reference to 'kiss_fftr_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:422: error: undefined reference to 'nqr::NyquistIO::NyquistIO()'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:423: error: undefined reference to 'nqr::NyquistIO::Load(nqr::AudioData*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:445: error: undefined reference to 'oboe::resampler::MultiChannelResampler::make(int, int, int, oboe::resampler::MultiChannelResampler::Quality)'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:487: error: undefined reference to 'nqr::NyquistIO::~NyquistIO()'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:487: error: undefined reference to 'nqr::NyquistIO::~NyquistIO()'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:304: error: undefined reference to 'kiss_fft_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:305: error: undefined reference to 'kiss_fft'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:314: error: undefined reference to 'kiss_fft'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:336: error: undefined reference to 'kiss_fft_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:337: error: undefined reference to 'kiss_fft'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:354: error: undefined reference to 'kiss_fft_alloc'
+C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/src/main/cpp/runblind/AudioProcessor.cpp:357: error: undefined reference to 'kiss_fft'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

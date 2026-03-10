@@ -1,0 +1,16 @@
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\include\libnyquist\Common.h
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\include\libnyquist\Decoders.h
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\include\libnyquist\Encoders.h
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\Common.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\Encoders.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\FlacDecoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\FlacDependencies.c
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\Mp3Decoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\MusepackDecoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\MusepackDependencies.c
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\OpusDecoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\OpusDependencies.c
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\VorbisDecoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\VorbisDependencies.c
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\WavDecoder.cpp
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\soundLib\src\main\cpp\libnyquist\src\WavPackDecoder.cpp

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/quent/Documents/RunBlind/TEST/planetarium/3D_sound_planetarium/3Dsound_planetarium/soundLib/.cxx/Debug/3av6x1j1/arm64-v8a",
+  "command": "C:\\Users\\quent\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android26 --gcc-toolchain=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/quent/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsoundlib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\soundlib.dir\\soundlib.cpp.o -c C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\soundlib.cpp",
+  "file": "C:\\Users\\quent\\Documents\\RunBlind\\TEST\\planetarium\\3D_sound_planetarium\\3Dsound_planetarium\\soundLib\\src\\main\\cpp\\soundlib.cpp"
+}
+]

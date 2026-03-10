@@ -1,0 +1,7 @@
+Executable : C:\Users\quent\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3Dsound_planetarium\app\.cxx\Debug\x6pv4n3u\arm64-v8a
+oboedemo
+jvmArgs : 
+

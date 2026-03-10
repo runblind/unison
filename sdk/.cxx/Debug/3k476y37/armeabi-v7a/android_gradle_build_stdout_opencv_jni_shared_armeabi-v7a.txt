@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\sdk\.cxx\Debug\3k476y37\armeabi-v7a'
+ninja: no work to do.

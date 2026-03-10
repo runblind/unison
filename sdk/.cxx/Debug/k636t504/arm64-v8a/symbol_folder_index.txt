@@ -1,0 +1,1 @@
+C:\Users\quent\Documents\RunBlind\TEST\planetarium\3D_sound_planetarium\3Dsound_planetarium\sdk\build\intermediates\cxx\Debug\k636t504\obj\arm64-v8a
