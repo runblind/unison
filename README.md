@@ -10,8 +10,7 @@ Fonctionnalites clefs
 - Informations vocalisees sur les objets selectionnes
 
 Contexte et partenariat
-- Projet porte par l'association Ciel d'Occitanie
-- En partenariat avec Audiodimension SAS (ex RunBlind).  Développeur principal : BGquent753 
+- Projet porte par l'association Ciel d'Occitanie et Audiodimension SAS (ex RunBlind).  Développeur principal : BGquent753 
 
 Technos
 - Android (application native)
@@ -30,8 +29,7 @@ Key features
 - Spoken information for selected objects
 
 Context and partnership
-- Project led by the Ciel d'Occitanie association
-- In partnership with Audiodimension SAS (
+- Project led by the Ciel d'Occitanie association and Audiodimension SAS
 
 Tech
 - Android (native app)
