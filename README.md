@@ -1,7 +1,5 @@
 # UNISON
 
-## Francais
-
 UNISON est une application mobile **Android** qui s'appuie sur l'application open source **Sky Map (Stardroid)**. Le projet vise a rendre l'astronomie accessible aux personnes mal ou non-voyantes via un planetarium sonore et une navigation audio des astres.
 
 Fonctionnalites clefs
@@ -18,8 +16,6 @@ Technos
 - Gradle (Android Gradle Plugin 7.4.2)
 
 ---
-
-## English
 
 UNISON is an **Android** mobile app and a derivative workof the open-source **Sky Map (Stardroid)** application. The project makes astronomy accessible to visually impaired people through a sound planetarium and audio navigation of celestial objects.
 
